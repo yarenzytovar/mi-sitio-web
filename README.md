@@ -89,7 +89,7 @@ La base de datos permite almacenar:
 3. Colocar el proyecto dentro de:
    C:\xampp\htdocs\
 4. Abrir:
-   http://localhost/mi-sitio-web
+   [http://localhost/mi-sitio-web](http://localhost/mi-sitio-web/pages/php.html)
 5. Crear la base de datos sitio_web desde phpMyAdmin.
 6. Ejecutar el archivo database.sql.
 
