@@ -1,91 +1,102 @@
-# 🌐 Proyecto Web - Desarrollo Web
+# Proyecto Final - Desarrollo Web
 
-## 📌 Descripción
-Este proyecto consiste en un sitio web desarrollado con HTML, CSS y JavaScript como parte de una actividad académica.
+## Alumna
+Yarenzy Valeria Gonzalez Tovar
 
-El sitio incluye navegación entre páginas, estilos modernos en tonos rosa y gris, animaciones CSS y funcionalidades interactivas con JavaScript.
+## Repositorio GitHub
+https://github.com/yarenzytovar/mi-sitio-web
+
+## Descripción del proyecto
+
+Este proyecto consiste en un sitio web desarrollado como producto transversal de la asignatura de Desarrollo Web. El objetivo fue integrar tecnologías frontend y backend utilizando HTML, CSS, JavaScript y PHP.
+
+El proyecto fue organizado utilizando una estructura modular de carpetas para facilitar el mantenimiento y escalabilidad del sitio web.
 
 ---
 
-## 🛠 Tecnologías utilizadas
+# Tecnologías utilizadas
+
 - HTML5
 - CSS3
 - JavaScript
+- PHP
+- MySQL
+- PDO
+- XAMPP
+- GitHub
 
 ---
 
-## 📂 Estructura del proyecto
+# Funcionalidades implementadas
 
-mi-sitio-web/
-│
-├── index.html
-├── pages/
-│   ├── arquitectura.html
-│   ├── html.html
-│   ├── css.html
-│
-├── assets/
-│   ├── css/
-│   │   └── styles.css
-│   ├── js/
-│   │   └── script.js
-│   ├── img/
+## Sección de Usabilidad
+
+Se agregó una página donde se explican conceptos de:
+
+- Experiencia de usuario (UX)
+- Diseño centrado en el usuario
+- Arquitectura de información
+
+También se muestran ejemplos prácticos relacionados con el diseño web moderno.
 
 ---
 
-## ▶️ Ejecución
+## Sección de JavaScript
 
-1. Descargar el repositorio
-2. Abrir la carpeta
-3. Ejecutar el archivo index.html en el navegador
+Se implementaron funcionalidades interactivas utilizando JavaScript y manipulación del DOM:
+
+- Cambio de modo oscuro
+- Eventos con botones
+- Uso de variables
+- Uso de bucles
+- Manipulación dinámica del contenido
 
 ---
 
-## ✨ Características
-- Navegación entre páginas
-- Diseño moderno (rosa y gris)
-- Animaciones con CSS
-- Alerta personalizada (JavaScript)
-- Validación de formulario
-# 🌐 Proyecto Web PROYECTO FINAL - DESARROLLO WEB
+## Sección de PHP
 
+Se desarrollaron funcionalidades backend utilizando PHP:
 
-Alumno: Yarenzy Tovar
+- Registro de usuarios
+- Formularios dinámicos
+- Validación de datos con expresiones regulares
+- Uso de sesiones
+- Uso de cookies
+- Manejo y subida de archivos
 
-INSTRUCCIONES DE EJECUCIÓN entrega final
+---
+
+# Base de datos
+
+Se utilizó MySQL con PDO para la conexión segura a la base de datos.
+
+Se creó la tabla:
+
+- usuarios
+
+La base de datos permite almacenar:
+
+- nombre
+- correo
+- contraseña
+
+---
+
+# Ejecución local
 
 1. Instalar XAMPP.
-2. Iniciar Apache y MySQL desde XAMPP Control Panel.
-3. Colocar la carpeta del proyecto dentro de:
+2. Iniciar Apache y MySQL.
+3. Colocar el proyecto dentro de:
+   C:\xampp\htdocs\
+4. Abrir:
+   http://localhost/mi-sitio-web
+5. Crear la base de datos sitio_web desde phpMyAdmin.
+6. Ejecutar el archivo database.sql.
 
-C:\xampp\htdocs\
-
-4. Abrir el navegador y entrar a:
-
-http://localhost/mi-sitio-web
-
-5. Abrir phpMyAdmin:
-
-http://localhost/phpmyadmin
-
-6. Crear la base de datos llamada:
-
-sitio_web
-
-7. Ejecutar el archivo database.sql.
-
-FUNCIONALIDADES IMPLEMENTADAS
-
-- Formularios con PHP
-- Registro de usuarios
-- Validación de datos con expresiones regulares
-- Uso de sesiones y cookies
-- Manipulación del DOM con JavaScript
-- Modo oscuro
-- Manejo y subida de archivos
-- Conexión a base de datos con PDO
-- Diseño responsive y navegación web
 ---
 
+# Conclusión
+
+Este proyecto permitió integrar conocimientos de frontend y backend, aplicando conceptos de programación web moderna, bases de datos y experiencia de usuario, logrando un sitio web dinámico, funcional y organizado.
 ## 👩‍💻 Autor
 Yarenzy Tovar
